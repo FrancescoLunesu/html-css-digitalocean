@@ -1,0 +1,91 @@
+/* DEFINIZIONE DELLA NAVBAR, DEL LOGO E DEL MENU ("FL-ul", "FL-li") */
+
+.FL-nav{
+    /* height: 80px; */
+    background-color: #fff;
+    line-height: 80px;
+}
+
+.logo img{
+    width: 150px;
+    vertical-align: middle;
+}
+
+.FL-ul .FL-li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.FL-ul .FL-li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.FL-ul .FL-li a:hover{
+    color: blue;
+}
+
+/* DEFINIZIONE PRIMA SEZIONE CON JUMBOTRON */
+
+.FL-first-sect{
+    height: 500px;
+    background-color: #015fff;
+    padding: 20px 0 20px 0;
+}
+
+/* DEFINIZIONE SECONDA SEZIONE */
+
+.FL-second-sect{
+    height: 200px;
+    background-color: #f3f5f9;
+    padding: 20px 0 20px 0;
+}
+
+/* DEFINIZIONE TERZA SEZIONE */
+
+.FL-third-sect{
+    height: 400px;
+    background-color: white;
+}
+
+/* DEFINIZIONE QUARTA E SETTIMA SEZIONE */
+
+.FL-forth-sect, .FL-seventh-sect{
+    height: 500px;
+    background-color: #f3f5f9;
+    padding: 20px 0 20px 0;
+}
+
+/* DEFINIZIONE QUINTA SEZIONE */
+
+.FL-fifth-sect{
+    height: 400px;
+    background-color: #fff;
+    padding: 20px 0 20px 0;
+}
+
+/* DEFINIZIONE SESTA SEZIONE */
+
+.FL-sixth-sect{
+    height: 400px;
+    background-color: #031b4e;
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+/* DEFINIZIONE OTTAVA SEZIONE */
+
+.FL-eight-sect{
+    height: 130px;
+    background-color: #0064ff;
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+/* DEFINIZIONE FOOTER */
+
+footer{
+    height: 500px;
+    background-color: #010e28;
+    padding: 20px 0 20px 0;
+}
