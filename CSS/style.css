@@ -188,7 +188,7 @@
 .FL-forth-sect, .FL-seventh-sect{
     /* height: 500px; */
     background-color: #f3f5f9;
-    padding: 20px 0 20px 0;
+    padding: 50px 0;
 }
 
 /* QUARTA SEZIONE */
@@ -257,21 +257,110 @@
 /* DEFINIZIONE SESTA SEZIONE */
 
 .FL-sixth-sect{
-    height: 400px;
-    background-color: #031b4e;
+    /* height: 900px; */
+    background: #031b4e url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 90px 0;
     color: white;
     text-align: center;
 }
 
+.FL-sixth-sect h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.FL-sixth-sect .FL-sottotitolo{
+    font-size: 20px;
+}
+
+.FL-sixth-sect .FL-data-center{
+    /* background-color: red; */
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    /* line-height: 20px; */
+    /* vertical-align: middle; */
+    margin: 20px 0;
+}
+
+.FL-sixth-sect p{
+    font-size: 12px;
+}
+
+.FL-sixth-sect .FL-data-center .sigla{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.FL-sixth-sect .FL-data-center .city{
+    font-size: 14px;
+    color: #7da4b8;
+}
+
+.FL-sixth-sect .FL-data-center a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #0cb8d2;
+}
+
+.FL-sixth-sect .FL-data-center a:hover{
+    color: blue;
+}
+
+.FL-first-city-col .FL-data-center:last-child, .FL-second-city-col .FL-data-center:last-child{
+    border-bottom: none;
+}
+
+/* SETTIMA SEZIONE */
+
+.FL-seventh-sect{
+    text-align: center;
+}
+
+.FL-seventh-sect h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.FL-seventh-sect p{
+    font-size: 20px;
+    color: #031b4e;
+}
+
 /* DEFINIZIONE OTTAVA SEZIONE */
 
 .FL-eight-sect{
-    height: 130px;
+    /* height: 130px; */
     background-color: #0064ff;
-    padding: 20px 0 20px 0;
+    padding: 50px 0;
     color: white;
+    line-height: 60px;
 }
+
+.FL-eight-sect h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.FL-eight-sect .FL-bottone{
+    text-align: right;
+}
+
+.FL-eight-sect .btn{
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    color: #0069ff;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+
 
 /* DEFINIZIONE FOOTER */
 
