@@ -1,15 +1,19 @@
 /* DEFINIZIONE DELLA NAVBAR, DEL LOGO E DEL MENU ("FL-ul", "FL-li") */
 
-.FL-nav{
+.navbar-default{
     /* height: 80px; */
     background-color: #fff;
-    line-height: 30px;
-    padding: 20px 0 0 0;
+    padding: 20px 0;
+    border: none;
+    margin-bottom: 0;
 }
 
-.logo img{
+.navbar-default .FL-logo{
+    padding-top:10px;
+}
+
+.navbar-default img{
     width: 150px;
-    vertical-align: middle;
 }
 
 .FL-ul .FL-li{
@@ -17,7 +21,7 @@
     padding-left: 20px;
 }
 
-.FL-ul .FL-li a{
+.FL-li a{
     text-decoration: none;
     color: #000;
 }
@@ -25,6 +29,25 @@
 .FL-ul .FL-li a:hover{
     color: blue;
 }
+
+.FL-bottoni{
+    text-align: right;
+}
+
+.FL-sign-in{
+    border: 1px solid blue;
+    color: blue;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.FL-sign-up{
+    border: none;
+    color: #fff;
+    background-color: blue;
+    font-weight: bold;
+}
+
 
 /* DEFINIZIONE PRIMA SEZIONE CON JUMBOTRON */
 
@@ -331,6 +354,42 @@
     color: #031b4e;
 }
 
+.FL-white-box{
+    /* height: 300px; */
+    background-color: #fff;
+    margin: 50px 0;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.FL-white-box img{
+    height: 30px;
+    margin: 20px 0;
+}
+
+.FL-quote{
+    padding: 20px;
+}
+
+.FL-quote p{
+    font-size: 26px;
+    color: #5b6987;
+}
+
+.FL-quote-autor{
+    padding: 10px;
+}
+
+.FL-quote-autor p:first-child{
+    font-size: 16px;
+    color: #5b6987;
+}
+
+.FL-quote-autor p:last-child{
+    font-size: 12px;
+    color: #5b6987;
+}
+
 /* DEFINIZIONE OTTAVA SEZIONE */
 
 .FL-eight-sect{
@@ -365,7 +424,56 @@
 /* DEFINIZIONE FOOTER */
 
 footer{
-    height: 500px;
+    height: 800px;
     background-color: #010e28;
     padding: 20px 0 20px 0;
+}
+
+footer h3{
+    color: #fff;
+    font-size: 16px;
+}
+
+footer .col-lg-2{
+    text-align: left;
+}
+
+
+footer .list-group .list-group-item{
+    background-color: #010e28;
+    border: none;
+    padding: 10px 0;
+}
+
+footer .list-group .list-group-item a{
+    text-decoration: none;
+    color: #80878d;
+}
+
+footer .list-group .list-group-item a:hover{
+    color: #fff;
+}
+
+.FL-footer-bottom{
+    color: #fff;
+    padding: 20px 0;
+}
+
+.FL-footer-bottom h4{
+    font-size: 14px;
+}
+
+.FL-footer-bottom a{
+    font-size: 20px;
+    padding-left: 10px;;
+    color: #80878d;
+}
+
+.FL-footer-bottom a:hover{
+    color: #fff;
+}
+
+.FL-footer-bottom .FL-social{
+    text-align: right;
+
 }

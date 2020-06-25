@@ -9,28 +9,73 @@
         <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
-        <nav class="navbar fixed-top FL-nav">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 logo">
-                        <img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo">
-                    </div>
-                    <div class="col-lg-8">
-                        <ul class="FL-ul">
+        <nav class="navbar navbar-default">
+          <div class="container">
+
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+                        <div class="navbar-header">
+                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                  <!-- <div class="row">
+                      <div class="col-lg-2 logo col-md-2 col-sm-6"> -->
+                 <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-6 FL-logo">
+                                <img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo">
+                            </div>
+                      <!-- </div> -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class=" col-lg-6 col-md-6 col-sm-6 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav">
                             <li class="FL-li"><a href="#">Products</a></li>
                             <li class="FL-li"><a href="#">Marketplace</a></li>
                             <li class="FL-li"><a href="#">Customers</a></li>
                             <li class="FL-li"><a href="#">Partners</a></li>
                             <li class="FL-li"><a href="#">Community</a></li>
                             <li class="FL-li"><a href="#">Pricing</a></li>
-                        </ul>
+                          </ul>
+                        </div>
+                        <div class="col-lg-2 col-lg-offset-2 col-md-3 col-md-offset-0 col-xs-6 col-xs-offset-4 FL-bottoni">
+                            <button class="btn btn-default FL-sign-in" type="submit">Sign In</button>
+                            <button class="btn btn-default FL-sign-up" type="submit">Sign Up</button>
+                        </div>
+                </div>
+
+            </div><!-- /.container-->
+        </nav>
+
+        <!-- <nav class="navbar navbar-default fixed-top FL-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 logo col-md-2 col-sm-6">
+                        <img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo">
                     </div>
-                    <div class="col-lg-2">
-                        <button class="btn btn-default" type="submit">Sign Up</button>
+                    <div class="col-lg-6 col-md-5 ">
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav FL-ul">
+                                <li class="FL-li"><a href="#">Products</a></li>
+                                <li class="FL-li"><a href="#">Marketplace</a></li>
+                                <li class="FL-li"><a href="#">Customers</a></li>
+                                <li class="FL-li"><a href="#">Partners</a></li>
+                                <li class="FL-li"><a href="#">Community</a></li>
+                                <li class="FL-li"><a href="#">Pricing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-lg-offset-2 col-md-3">
+                        <button class="btn btn-default FL-sign-in" type="submit">Sign In</button>
+                        <button class="btn btn-default FL-sign-up" type="submit">Sign Up</button>
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav> -->
         <section class="FL-first-sect">
             <div class="container">
                 <div class="row">
@@ -411,9 +456,17 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        IMMAGINE
-                        <img src="" alt="">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="FL-white-box">
+                            <img src="https://images.prismic.io/www-static/16673e66-0c2f-417b-88bb-f02cc12b8fda_rockerbox-logo-51462da2.png?auto=compress,format" alt="mini-logo">
+                            <div class="FL-quote">
+                                <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
+                            </div>
+                            <div class="FL-quote-autor">
+                                <p>Rick O’Toole</p>
+                                <p>Co-founder and CTO</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -438,51 +491,95 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-lg-offset-2">
+                        <h3>Company</h3>
                         <ul class="list-group">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item"><a href="#">About</a></li>
+                            <li class="list-group-item"><a href="#">Leadership</a></li>
+                            <li class="list-group-item"><a href="#">Blog</a></li>
+                            <li class="list-group-item"><a href="#">Careers</a></li>
+                            <li class="list-group-item"><a href="#">Partners</a></li>
+                            <li class="list-group-item"><a href="#">Referral Program</a></li>
+                            <li class="list-group-item"><a href="#">Press</a></li>
+                            <li class="list-group-item"><a href="#">Legal</a></li>
+                            <li class="list-group-item"><a href="#">Trust Platform</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2">
+                        <h3>Products</h3>
                         <ul class="list-group">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item"><a href="#">Products Overview</a></li>
+                            <li class="list-group-item"><a href="#">Droplets</a></li>
+                            <li class="list-group-item"><a href="#">Kubernetes</a></li>
+                            <li class="list-group-item"><a href="#">Managed Databases</a></li>
+                            <li class="list-group-item"><a href="#">Spaces</a></li>
+                            <li class="list-group-item"><a href="#">Marketplace</a></li>
+                            <li class="list-group-item"><a href="#">Load Balancers</a></li>
+                            <li class="list-group-item"><a href="#">Block Storage</a></li>
+                            <li class="list-group-item"><a href="#">Tools & Integrations</a></li>
+                            <li class="list-group-item"><a href="#">API</a></li>
+                            <li class="list-group-item"><a href="#">Pricing</a></li>
+                            <li class="list-group-item"><a href="#">Documentation</a></li>
+                            <li class="list-group-item"><a href="#">Release Notes</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2">
+                        <h3>Community</h3>
                         <ul class="list-group">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item"><a href="#">Tutorials</a></li>
+                            <li class="list-group-item"><a href="#">Meetups</a></li>
+                            <li class="list-group-item"><a href="#">Q&A</a></li>
+                            <li class="list-group-item"><a href="#">Write for DOnations</a></li>
+                            <li class="list-group-item"><a href="#">Droplets for Demos</a></li>
+                            <li class="list-group-item"><a href="#">Hatch Startup Program</a></li>
+                            <li class="list-group-item"><a href="#">Shop Swag</a></li>
+                            <li class="list-group-item"><a href="#">Research Program</a></li>
+                            <li class="list-group-item"><a href="#">Currents Research</a></li>
+                            <li class="list-group-item"><a href="#">Open Source</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2">
+                        <h3>Solutions</h3>
                         <ul class="list-group">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item"><a href="#">Web & Mobile Apps</a></li>
+                            <li class="list-group-item"><a href="#">Website Hosting</a></li>
+                            <li class="list-group-item"><a href="#">Big Data</a></li>
+                            <li class="list-group-item"><a href="#">Managed Services</a></li>
+                            <li class="list-group-item"><a href="#">Business Solutions</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2">
+                        <h3>Contact</h3>
                         <ul class="list-group">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item"><a href="#">Support</a></li>
+                            <li class="list-group-item"><a href="#">Sales</a></li>
+                            <li class="list-group-item"><a href="#">Report Abuse</a></li>
+                            <li class="list-group-item"><a href="#">System Status</a></li>
                         </ul>
                     </div>
 
+                </div>
+
+                <hr>
+
+                <div class="row FL-footer-bottom">
+                    <div class="col-lg-1">
+                        <img src="https://images.prismic.io/www-static%2F903fd83b-8963-42c2-baf6-44f4d6bb83f2_digitalocean-logo-mark.svg?auto=compress,format" alt="small-logo">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h4>© 2020 DigitalOcean, LLC. All rights reserved.</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-lg-offset-3 FL-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dev"></i></a>
+                        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                        <a href="#"><i class="fab fa-btc"></i></a>
+                    </div>
                 </div>
 
             </div>
